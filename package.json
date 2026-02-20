@@ -1,0 +1,19 @@
+{
+  "name": "@happymgr/cursor-assets",
+  "version": "1.0.0",
+  "description": "happymgr's-cursor-assets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/happymgr-s/my-cursor-assets.git"
+  },
+  "author": "happymgr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/happymgr-s/my-cursor-assets/issues"
+  },
+  "homepage": "https://github.com/happymgr-s/my-cursor-assets#readme"
+}
