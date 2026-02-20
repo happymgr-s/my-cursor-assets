@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "happymgr's-cursor-assets",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "cursor-assets": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "assets"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
