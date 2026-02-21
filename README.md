@@ -13,16 +13,26 @@
 npx @happymgr/cursor-assets init
 ```
 
+### アセット一覧取得
+
+このリポジトリ内の全てのアセットの一覧を取得する。
+
+```bash
+npx @happymgr/cursor-assets ls
+```
+
 ### 個別追加
 
 アセットを指定してローカルにインストール
 
 - アセット種別で一括追加
+
 ```bash
 npx @happymgr/cursor-assets add <asset-type>
 ```
 
 - 特定のアセットのみを追加
+
 ```bash
 npx @happymgr/cursor-assets add <asset-type> <asset-name>
 ```
@@ -35,11 +45,13 @@ npx @happymgr/cursor-assets add <asset-type> <asset-name>
 ローカルで「熟成」させたアセットの変更分を、このリポジトリに向けてPRを作成します。
 
 - 全ての変更をPR（.cursor/`<asset-type>`/global 内の全てのアセット）
+
 ```bash
 npx @happymgr/cursor-assets pr
 ```
 
 - アセット種別で指定してPR
+
 ```bash
 npx @happymgr/cursor-assets pr <asset-type>
 ```
