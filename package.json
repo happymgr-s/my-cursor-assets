@@ -1,6 +1,6 @@
 {
   "name": "@happymgr/cursor-assets",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "happymgr's-cursor-assets",
   "main": "index.js",
   "type": "module",
